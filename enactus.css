@@ -1,0 +1,89 @@
+header{
+    justify-content: space-between;
+    display: inline-block;
+}
+*{
+    background-color: white;
+    
+}
+.headiv{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-family: 'Lato', sans-serif;
+    display: inline;
+}
+#mainheading{
+    text-align: center;
+    margin-left: 500px;
+    font-size:larger;
+    color: rgb(243, 189, 40);
+}
+.maindiv{
+    height: 105px;
+    width: 105px;
+    margin-top:100px;
+   color: #525551; 
+    border: solid  #525551;
+    justify-content: space-between;
+    border-radius: 100px;
+    display: inline-block;
+}
+#dm1{
+    margin-left: 75px;
+    margin-right: 50px;
+}
+#dm2{
+    margin-left: 220px;
+    margin-right: 80px;
+}
+#dm3{
+    margin-left: 200px;
+    margin-right: 80px;
+}
+#dm4{
+    margin-left: 235px;
+    margin-right: 80px;
+}
+#dm5{
+    margin-left: 240px;
+    margin-right: 80px ;
+}
+
+.container {
+    /* Set the height of your div */
+    overflow: hidden; /* Hide any overflowing content */
+    height: 105px;
+    width: 105px;
+    margin-top:100px;
+   color: #525551; 
+    border: solid  #525551;
+    justify-content: space-between;
+    border-radius: 100px;
+    display: inline-block;
+    transition: 1.5s;
+  }
+  
+  .container img {
+    width: 100%; /* Make the image fill the entire width of the container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove any default spacing */
+  }
+#dm8{
+    margin-left: 240px;
+    margin-right: 80px ;
+    height: 105px;
+    width: 105px;
+    margin-top:100px;
+   color: #525551; 
+    border: solid  #525551;
+    justify-content: space-between;
+    border-radius: 100px;
+    display: inline-block;
+}
+
+.container:hover{
+    height: 150px;
+    width: 150px;
+    box-shadow: 10px;
+    transition: 1.5s ease-in-out;
+}
